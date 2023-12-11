@@ -18,4 +18,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Blogger.Data\Blogger.Data.csproj" />
+    <ProjectReference Include="..\Blogger.Entity\Blogger.Entity.csproj" />
+  </ItemGroup>
+
 </Project>
