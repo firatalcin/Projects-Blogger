@@ -1,4 +1,5 @@
-﻿using Blogger.Entity.Entities;
+﻿using Blogger.Entity.DTOs.Articles;
+using Blogger.Entity.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace Blogger.Service.Services.Abstract
 {
 	public interface IArticleService
 	{
-		Task<List<Article>> GetAllArticlesAsync();
+		Task<List<ArticleDto>> GetAllArticlesAsync();
 	}
 }
